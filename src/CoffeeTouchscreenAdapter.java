@@ -1,4 +1,3 @@
-
 public class CoffeeTouchscreenAdapter implements CoffeeMachineInterface{
 	OldCoffeeMachine theMachine;
 
@@ -6,11 +5,11 @@ public class CoffeeTouchscreenAdapter implements CoffeeMachineInterface{
 		theMachine = newMachine;
 	}
 	
-	public void chooseFirstSelection() {
-		theMachine.selectA();
+	public String chooseFirstSelection() {
+		return theMachine.selectA();
 	}
 	
-	public void chooseSecondSelection() {
-		theMachine.selectB();
+	public String chooseSecondSelection() {
+		return theMachine.selectB();
 }
 }

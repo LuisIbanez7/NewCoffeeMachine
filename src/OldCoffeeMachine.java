@@ -1,10 +1,14 @@
 
+
 public class OldCoffeeMachine {
-	public void selectA() {
-		System.out.println("A - Selected");
+	public String selectA() {
+		System.out.println("A");
+		return "A";
 	}
 
-	public void selectB() {
-		System.out.println("B - Selected");
+	public String selectB() {
+		System.out.println("B");
+		return "B";
+		
 	}
 }
